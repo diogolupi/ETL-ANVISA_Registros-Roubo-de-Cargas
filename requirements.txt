@@ -1,6 +1,8 @@
 pandas
 openpyxl
 pdfplumber
+camelot-py
+PyPDF2
 beautifulsoup4
 requests
 selenium
