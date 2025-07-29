@@ -15,7 +15,7 @@ O projeto é dividido em 4 etapas principais:
 | Etapa | Descrição |
 |-------|-----------|
 | **Etapa 1** | Coleta automatizada dos arquivos (.pdf e .xlsx) a partir do portal da ANVISA |
-| **Etapa 2** | Extração de tabelas dos arquivos PDF com `pdfplumber` e exportação para Excel |
+| **Etapa 2** | Extração de tabelas dos arquivos PDF com `camelot`, `pdfplumber` e exportação para Excel |
 | **Etapa 3** | Padronização dos arquivos tratados (.xlsx), limpeza de colunas e separação de UF |
 | **Etapa 4** | Consolidação final de todos os anos em um único arquivo unificado |
 
@@ -50,7 +50,7 @@ jupyter notebook
 Instale os pacotes com:
 
 ```python
-!pip install pandas openpyxl pdfplumber beautifulsoup4 requests selenium webdriver-manager
+!pip install pandas openpyxl pdfplumber camelot-py PyPDF2 beautifulsoup4 requests selenium webdriver-manager
 ```
 
 Ou use:
